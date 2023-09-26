@@ -179,10 +179,10 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+            <div className="basis-1/3 flex-1 cursor-pointer">
               <a href="https://tours-reactjs-app.netlify.app/">
                 <Image
-                  className="rounded-lg object-cover cursor-pointer"
+                  className="rounded-lg object-cover "
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
@@ -190,10 +190,10 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 cursor-pointer">
               <a href="https://slider-react-vite-app.netlify.app/">
                 <Image
-                  className="rounded-lg object-cover cursor-pointer"
+                  className="rounded-lg object-cover "
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
@@ -201,10 +201,10 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 cursor-pointer">
               <a href="https://menu-react-vite-app.netlify.app/">
                 <Image
-                  className="rounded-lg object-cover cursor-pointer"
+                  className="rounded-lg object-cover "
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
@@ -212,10 +212,10 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 cursor-pointer">
               <a href="https://tabs-react-vite-app.netlify.app/">
                 <Image
-                  className="rounded-lg object-cover cursor-pointer"
+                  className="rounded-lg object-cover "
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"

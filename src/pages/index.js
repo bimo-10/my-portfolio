@@ -10,6 +10,8 @@ import menu from "../../public/menu.png";
 import slider from "../../public/slider.png";
 import tours from "../../public/tours.png";
 import tabs from "../../public/tabs.png";
+import question from "../../public/questions.png";
+import countdown from "../../public/countdown-timer.png";
 
 // import react-icons
 import { BsFillMoonStarsFill } from "react-icons/bs";
@@ -223,21 +225,27 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+            <div className="basis-1/3 flex-1 cursor-pointer">
+              <a href="https://questions-reactjs-app.netlify.app/">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={question}
+                />
+              </a>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+            <div className="basis-1/3 flex-1 cursor-pointer">
+              <a href="https://countdown-app-lilb.netlify.app/">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={countdown}
+                />
+              </a>
             </div>
           </div>
         </section>
